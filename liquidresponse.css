@@ -1,9 +1,9 @@
 @import url('../responsive/default.css');
-@import url('../responsive/mobile_wide.css');	
-@import url('../responsive/retina.css');	
-@import url('../responsive/tablet.css');	
-@import url('../responsive/desktop.css');	
-@import url('../responsive/wide.css');	
+@import url('../responsive/mobile_wide.css') only screen and (min-width: 480px) and (max-width: 767px);	
+@import url('../responsive/retina.css') only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2);	
+@import url('../responsive/tablet.css') only screen and (min-width: 768px) and (max-width: 991px);	
+@import url('../responsive/desktop.css') only screen and (min-width: 992px) and (max-width: 1399px);	
+@import url('../responsive/wide.css') only screen and (min-width: 1400px);	
 
 /*	Reset Style */
 
@@ -131,7 +131,7 @@ body {
 }
 
 
-/*	Tablet Layout: 768px.
+/*	Tablet Layout: 768px (in portrait).
 		Gutters: 24px.
 		Outer margins: 28px.
 		Inherits styles from: Default Layout.
@@ -148,7 +148,7 @@ body {
 }
 
 
-/*	Desktop Layout: 960px. 
+/*	Desktop Layout: 960px (overlaps with tablet in landscape, actually). 
 		Gutters: 24px.
 		Outer margins: 48px.
 		Inherits styles from: Default Layout.
