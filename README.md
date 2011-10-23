@@ -1,7 +1,7 @@
 # About
 Liquid Response is a response to my frustration that none of the major CSS Grids (as much as I like them) take mobile-first approach. 
 
-Liquid Response is a personal selection of best practices from popular, open-source grid frameworks wrapped into a mobile-first approach and published with the hope of being useful for others.
+Liquid Response is a personal selection of best practices from popular, open-source grid frameworks wrapped into a mobile-first approach and published with the hope of being useful to others.
 
 Liquid Response is distributed under MIT license.
 
