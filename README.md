@@ -15,14 +15,21 @@ Liquid Response is distributed under MIT license.
 `<link href="/css/liquidresponse/liquidresponse.css" media="screen" rel="stylesheet" type="text/css" /> `
 1. Start using and give feedback.
 
-## Advanced (for Git projects/users)
-If you want to manage updates easily and your project is already checked into Git, following steps can give you
-an idea about how to "attach" liquidresponse to your git repo as a git submodule (ATTENTION: these commands MUST
-be run from the root of your working copy and in this example I am "installing" liquidresponse under 
-"public/css/liquidresponse" below the root of the working copy. Modify this path to fit your project):
+# Advanced Installation for Git Projects
+
+If you manage your project in Git, you may want to "attach" liquidresponse as a Git submodule, for easier updates:
+
 1. git submodule add https://github.com/inadarei/liquidresponse public/css/liquidresponse
 1. git init public/css/liquidresponse
 1. git commit -m "adding liquidresponse as proper submodule" .
 1. git push
+
+ATTENTION: these commands must be run from the root of your git working copy. Also please note
+that I am "installing" liquidresponse in "public/css/liquidresponse" folder under my web root.
+You will have to adjust that to suit your project.
+
+Once you have liquidresponse set up as a git module, you can update it with:
+`git submodule update --init public/css/liquidresponse` (again: fix path) or:
+`git submodule update --init` if you are OK with updating all submodules.
 
 # Usage 
