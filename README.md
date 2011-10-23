@@ -11,8 +11,9 @@ Liquid Response is distributed under MIT license.
 1. Download zip file and unzip or: 'git clone git@github.com:inadarei/liquidresponse.git'
 1. cd liquidresponse (or go into "liquidresponse folder")
 1. mv responsive.default ../responsive (or: move "responsive.default" folder one level up, in the folder structure, and rename it to just "responsive")
-1. Add a line similar to following to your HTML head:
-`<link href="/css/liquidresponse/liquidresponse.css" media="screen" rel="stylesheet" type="text/css" /> `
+1. Add lines similar to the following to your HTML head:
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link href="/css/liquidresponse/liquidresponse.css" media="screen" rel="stylesheet" type="text/css" /> `
 1. Start using and give feedback.
 
 # Advanced Installation for Git Projects
