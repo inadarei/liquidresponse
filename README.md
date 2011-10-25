@@ -14,7 +14,7 @@ Liquid Response is distributed under MIT license.
 1. Add lines similar to the following to your HTML head:
 <code>
 <br/>
-&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/&gt;
 <br/>
 &lt;link href="/css/liquidresponse/liquidresponse.css" media="screen" rel="stylesheet" /&gt;
 </code>
