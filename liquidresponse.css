@@ -5,95 +5,16 @@
 @import url('../responsive/desktop.css') only screen and (min-width: 992px) and (max-width: 1399px);	
 @import url('../responsive/wide.css') only screen and (min-width: 1400px);	
 
-/*	Reset Style */
-
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup, 
-menu, footer, header, nav, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-article, aside, canvas, figure, figure img, figcaption, hgroup,
-footer, header, nav, section, audio, video {
-	display: block;
-}
-
-a img {border: 0;}
-
-
-/*	Typographic font styling	*/
-
-body {
-	font: 16px/24px;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 1.5em; /* 24 ÷ 16 = 1.5 */
-}
-
-h2 {
-  font-size: 1.375em; /* 22 ÷ 16 = 1.375 */
-}
-
-h3 {
-  font-size: 1.25em; /* 20 ÷ 16 = 1.25 */
-}
-
-h4 {
-  font-size: 1.125em; /* 18 ÷ 16 = 1.125 */
-}
-
-h5, h6 {
-  font-size: 1em; /* 16 ÷ 16 = 1 */
-}
-
-/* Selection colours */
-
-::selection 	 	{background: rgb(255,255,158);}
-::-moz-selection 	{background: rgb(255,255,158);}
-img::selection 		{background: transparent;}
-img::-moz-selection	{background: transparent;}
-body {-webkit-tap-highlight-color: rgb(255,255,158);}
-
-
-/* Fluid Grid ( Credit: OOCSS Grid) */
-
-.line,.lastUnit{overflow:hidden; *overflow:visible;*zoom:1;}
-.unit{float:left;}
-.unitRight{float:right;}
-.size1of1{float:none;}
-.size1of2{width:50%;}
-.size1of3{width:33.33333%;}
-.size2of3{width:66.66666%;}
-.size1of4{width:25%;}
-.size3of4{width:75%;}
-.size1of5{width:20%;}
-.size2of5{width:40%;}
-.size3of5{width:60%;}
-.size4of5{width:80%;}
-.lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
-
-
 
 /*	Default: is mobile Layout at 320px.
 		Gutters: 24px.
-		Outer margins: 34px.
+		Outer margins: 12px.
 -------------------------------------------------------------------------------
 */
 body {
-  width: 252px;
-  padding-right: 34px;
-  padding-left: 34px;
+  width: 308px;
+  padding-right: 6px;
+  padding-left: 6px;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
@@ -103,15 +24,16 @@ body {
 
 /*	Wide Mobile Layout: 480px.
 		Gutters: 24px.
-		Outer margins: 22px.
+		Outer margins: 12px.
 		Inherits styles from: Default (mobile) Layout.
 ------------------------------------------------------------
 */
 @media only screen and (min-width: 480px) and (max-width: 767px) {	
 	body {
-		width: 436px;
-    padding-right: 22px;
-    padding-left: 22px;
+		width: 456px;
+    padding-right: 12px;
+    padding-left: 12px;
+    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */    
   }
 }
 
